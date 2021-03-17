@@ -1,0 +1,34 @@
+{
+  "name": "React-GraphQL-TS-Stack",
+  "version": "1.0.0",
+  "description": "Personal Repo for syncing code whilst following Ben Awad's Fullstack React TypeScript tutorial",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js",
+    "start": "node dist/index.js",
+    "start2": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snorrealv/React-GraphQL-TS-Stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snorrealv/React-GraphQL-TS-Stack/issues"
+  },
+  "homepage": "https://github.com/snorrealv/React-GraphQL-TS-Stack#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.35",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "@mikro-orm/cli": "^4.4.4",
+    "@mikro-orm/core": "^4.4.4",
+    "@mikro-orm/migrations": "^4.4.4",
+    "@mikro-orm/postgresql": "^4.4.4",
+    "pg": "^8.5.1"
+  }
+}
